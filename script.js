@@ -31,7 +31,7 @@ form.addEventListener("submit", async (e) => {
     formSendResult.textContent = "Повторите попытку позже.";
     console.error(error);
   } finally {
-    // Возвращаем кнопку в исходное состояние
+
     submitButtontext.textContent = "отправить";
   }
 });
