@@ -170,7 +170,7 @@ function startCountdown(targetDate) {
   setInterval(updateTimer, 1000);
 }
 
-const newYear = new Date(2026, 6, 26, 11, 0, 0).getTime();
+const newYear = new Date(2026, 5, 26, 11, 0, 0).getTime();
 startCountdown(newYear);
 
 
