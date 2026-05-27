@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Elowen';
+  src:
+    url("./Elowen.woff2") format("woff2"),
+    url("./Elowen.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ElowenCaps';
+  src:
+    url("./ElowenCaps.woff2") format("woff2"),
+    url("./ElowenCaps.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src:
+    url("Montserrat-Regular.woff2") format("woff2"),
+    url("Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+

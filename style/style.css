@@ -1,0 +1,524 @@
+body{
+  background-color: var(--background-color);
+}
+
+
+.header{
+  max-width: 412px;
+  margin: 0 auto 40px ;
+}
+
+.kursiv{
+  font-family: var(--kursiv-text);
+  font-size: 48px;
+  text-align: center;
+  color: var(--color-text);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.header-text{
+  font-size: 32px;
+  color: var(--yellow);
+  font-family: var(--kursiv-text-mini);
+  text-transform: lowercase;
+}
+
+.box-music{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.audio{
+  background-image: url(../img/butheaert.png);
+  aspect-ratio: 39/52;
+  width: 39px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: transparent;
+}
+
+.music{
+  margin-top: 5px;
+}
+
+.main{
+  max-width: 412px;
+  margin: auto;
+}
+
+.text{
+  font-family: var(--main-font);
+  color:  var(--color-text);
+  font-size: 16px;
+  text-align: center;
+}
+
+.dear{
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dear-text{
+  font-size: 36px;
+  font-family: var(--kursiv-text-mini);
+  text-transform: none;
+}
+
+.padding-top{
+  padding-top: 27px;
+}
+
+.calendar{
+ display: flex;
+ align-items: center;
+ justify-content: center;flex-direction: column;
+}
+
+.heart{
+  max-width: 324px;
+  aspect-ratio: 324/296;
+}
+
+.box-heart{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.location-text{
+  color: var(--background-color); 
+   position: absolute;
+  top: 95px;
+  left: 83px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-loc{
+   color: var(--background-color);
+}
+
+.map-button{
+  border: none;
+  background-color: transparent;
+}
+
+.href{
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: var(--main-font);
+  font-size: 14px;
+}
+
+.left{
+  top: 100px;
+  left: 111px;
+}
+
+.locaion{
+  position: relative;
+}
+
+.para{
+  position: absolute;
+  bottom: -33px;
+  left: -15px;
+}
+.para2{
+  position: absolute;
+  bottom: -20px;
+  right: -15px;
+}
+
+.kursiv-mini{
+  font-family: var(--kursiv-text-mini);
+  font-size: 24px;
+  color: var(--color-text);
+  text-transform: lowercase;
+}
+
+.time-text{
+  font-size: 16px;
+  text-transform: lowercase;
+}
+
+.time-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timing{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 69px;
+  position: relative;
+}
+
+.angel{
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+
+.merrid{
+  position: absolute;
+  top: 255px;
+  right: 0;
+}
+
+.angelsmall{
+  position: absolute;
+  bottom: 42px;
+  left: 0;
+}
+
+.ramka{
+  max-width: 412px;
+  aspect-ratio: 412/580;
+}
+
+.wishes{
+  margin-top: 80px;
+  position: relative;
+}
+
+.box-wishes{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  position: absolute;
+  top: 168px;
+  left: 10px;
+  padding: 0 41px;
+  line-height: 1.5;
+}
+
+.anketa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-top: 60px;
+  padding: 0 30px;
+  color: var(--color-text);
+  font-family: var(--main-font);
+  position: relative;
+   
+}
+
+.bocal{
+  position: absolute;
+  bottom: 69px;
+  right: -5px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  height: auto;
+  transition: height 0.3s ease;
+  padding: 0 10px;
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  border: none;
+  padding: 0;
+}
+
+.custom-radio input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.radio-circle {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border: 1px solid var(--color-text);
+  border-radius: 50%;
+  background: transparent;
+  transition: all 0.15s;
+  position: relative;
+}
+
+.input {
+  border: 1px solid var(--color-text);
+  max-width: 330px;
+  width: 100%;
+  height: 33px;
+  margin-top: 9px;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  outline: none;
+  background-color: transparent;
+}
+::placeholder{
+  color: var(--color-text);
+}
+
+.custom-radio:hover .radio-circle {
+  border-color: var(--color-text);
+}
+
+.custom-radio input[type="radio"]:checked + .radio-circle {
+  border-color: var(--color-text);
+  background: var(--color-text);
+}
+
+.radio-text {
+  text-align: left;
+  font-size: 16px;
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 16px;
+}
+
+.checkbox__input {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-text);
+  background-color: transparent;
+  width: 14px;
+  height: 14px;
+  outline: none;
+  border-radius: 0;
+}
+
+.checkbox__input:checked::after {
+  content: "✓";
+  font-size: 12px;
+}
+
+.button {
+  width: 110px;
+  transition: all 0.3s ease;
+  height: 32px;
+  justify-self: center;
+  align-self: center;
+  font-family: var(--main-font);
+  background-color: var(--color-text);
+  color: var(--background-color);
+}
+
+.button.touch-pressed {
+  background-color: #6b6b6b;
+}
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: var(--background-color-light);
+    color: var(--hot-pink-color);
+  }
+}
+
+.form-send {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.error-text {
+  display: none;
+}
+
+.error-text.show {
+  display: block;
+  animation: show 0.3s ease;
+}
+
+.radio-error {
+  display: none;
+  text-align: left;
+  font-size: 15px;
+}
+
+.radio-error.show {
+  display: block;
+  animation: show 0.3s ease;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.varints-text {
+  padding-bottom: 5px;
+}
+
+.varints {
+  padding-bottom: 13px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.custom-radio {
+  font-size: 16px;
+  text-align: left;
+}
+
+
+.error-icon {
+  font-size: 16px;
+}
+
+.input_box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: var(--main-font);
+}
+
+
+.bocal2{
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+}
+
+.footer{
+  margin-top: 165px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow{
+  color:#FEBA08;
+  font-size: 40px;
+  font-family: var(--kursiv-text-mini);
+}
+
+.time {
+  max-width: 412px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  margin-top: -48px;
+  color: var(--background-color);
+  margin-bottom: 30px;
+}
+
+.text-input {
+  font-size: 18px;
+}
+
+.timer-text {
+  font-size: clamp(3.4375rem, calc(-0.4573rem + 17.31vw), 4rem);
+  text-align: center;
+  font-family: var(--main-font);
+  position: relative;
+  width: 75px;
+}
+
+.colon {
+  width: 12px;
+}
+
+.timer {
+  padding-top: 60px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+
+}
+
+.timer-text_small {
+  font-size: 15px;
+}
+.days::after {
+  content: "дней";
+  position: absolute;
+  top: 68px;
+  right: 19px;
+  font-size: 15px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  color: #FEBA08;
+}
+
+.hours::after {
+  content: "часов";
+  position: absolute;
+  top: 68px;
+  right: 14px;
+  font-size: 15px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  color: #FEBA08;
+}
+
+.minutes::after {
+  content: "минут";
+  position: absolute;
+  top: 68px;
+  right: 14px;
+  font-size: 15px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  color: #FEBA08;
+}
+
+.seconds::after {
+  content: "секунд";
+  position: absolute;
+  top: 68px;
+  left: 13px;
+  font-size: 15px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  color: #FEBA08;
+}
+
+.contakt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  padding: 0 35px;
+}
